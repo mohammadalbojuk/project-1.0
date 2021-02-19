@@ -1,0 +1,91 @@
+/* 
+1- Common Style
+2- General Style  
+3- Sections
+    3.0- Header Section      
+    3.1- Home Section    
+    3.2- About Section     
+    3.3- Portfolio Section     
+    3.4- Service Section     
+    3.5- Price Section     
+    3.6- Blog Page     
+    3.7- Team Section     
+    3.8- Contact Section     
+    3.9- Footer Sectionv     
+*/
+
+/* 1- Common Style */
+/* 
+- container
+- opacity hover
+- section padding
+- hover effect 1 (left to right)
+- hover effect 2 (top to bottom)
+*/
+
+/* 2- General CSS Style  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* CSS 3 */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* 3- Sections Style */
+/* 3.0- Header Sections */
+.header  {
+    background: gray;
+}
+
+.header-content {
+    overflow: hidden; /* to solve float problem */
+}
+
+.header .logo {
+    width: 40%;
+    float: left;
+}
+
+.header .nav {
+    width: 60%;
+    float: left;
+    list-style: none;
+}
+
+.header .nav li {
+    display: inline-block;
+}
+
+.header .nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 30px 15px;
+}
+
+/* 3.1- Home Sections */
+.home {
+    height: 100%;
+    background-image: url(../images/background/background1.webp);
+    background-size: cover;
+    position: relative;
+}
+
+
